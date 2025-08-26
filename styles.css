@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.firstSection {
+  height: 100vh;
+  width: 100%;
+}
+
+/*-----NavBar------*/
+
+.navBarContainer {
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+/*-----Company Logo and Name------*/
+
+.companyLogoContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.companyLogoContainer img {
+  height: 80px;
+  width: 60px;
+}
+
+.companyLogoContainer h1 {
+  color: black;
+  font-family: Roboto;
+  font-size: 25px;
+}
+
+/*-----NavBar Link------*/
+
+.navBarListContainer {
+  display: flex;
+  gap: 50px;
+}
+
+.navBarList {
+  list-style: none;
+}
+
+.navBarList a {
+  text-decoration: none;
+  font-size: 20px;
+  /* font-family: Roboto; */
+  color: black;
+}
+
+/*-----Hero Section------*/
+
+.heroSection {
+  height: calc(100vh - 70px);
+  width: 100%;
+  background-image: url("images/bgc_2.jpg");
+  /* backdrop-filter: blur(1rem); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.heroSectionContainer {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.7);
+  display: flex;
+}
+
+.leftHeroSectionContainer,
+.righttHeroSectionContainer {
+  width: 50%;
+  height: 100%;
+}
+
+/*-----Left Hero Section-----*/
+
+.leftHeroSectionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+  justify-content: center;
+  padding-left: 150px;
+}
+
+.leftHeroSectionContainer h1 {
+  font-size: 40px;
+  font-family: Roboto;
+}
+
+.leftHeroSectionContainer button {
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: 0;
+  border-style: none;
+  cursor: pointer;
+}
+
+.leftHeroSectionContainer button:hover {
+  color: white;
+  background-color: red;
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+}
+
+.leftHeroSectionContainer p {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*----Right Hero Section----*/
+
+#rightImageContainer {
+  width: 100%;
+  height: 100%;
+}
+
+#rightImageContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+/*----Article section----*/
+
+.inBetweenArticle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: -48px;
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+.inBetweenArticle p {
+  color: white;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.inBetweenArticle button {
+  background-color: rgb(217, 150, 58);
+  padding: 6px 25px;
+  color: white;
+  border-radius: 20px;
+}
