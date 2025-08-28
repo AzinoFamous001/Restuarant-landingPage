@@ -1,0 +1,74 @@
+.thirdSection {
+  height: 80vh;
+  width: 100%;
+  background-image: url("images/bgc_2.jpg");
+  /* backdrop-filter: blur(1rem); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.thirdSectionContainer {
+  display: flex;
+  background-color: rgba(255, 0, 0, 0.7);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.topThirdSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+  margin-bottom: 0;
+  color: white;
+  gap: 5px;
+}
+
+.topThirdSection h1 {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.topThirdSection p {
+  font-family: Roboto;
+  font-size: 18px;
+  text-align: center;
+}
+
+.bottomThirdSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  margin-top: 0;
+  width: 90%;
+}
+
+.bottomThirdSection section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 95%;
+  width: 50%;
+  /* background-color: #fff; */
+}
+
+.bottomThirdSection section div {
+  /* background-color: aqua; */
+  height: 70%;
+  width: 100%;
+}
+
+.bottomThirdSection section div img {
+  margin: 30px 50px;
+  height: 100%;
+  width: 80%;
+  object-fit: contain;
+  object-position: center;
+}

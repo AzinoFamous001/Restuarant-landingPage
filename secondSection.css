@@ -1,0 +1,123 @@
+/*----Second Section----*/
+
+.secondSection {
+  height: 80vh;
+  width: 100%;
+  margin-top: -17px;
+  background: linear-gradient(
+    135deg,
+    #8b4513 0%,
+    #cd853f 20%,
+    #deb887 40%,
+    #f4a460 60%,
+    #daa520 80%,
+    #b8860b 100%
+  );
+  overflow: hidden;
+}
+
+.secondSectionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  /* z-index: 2; */
+}
+
+.leftSecondSection,
+.rightSecondSection {
+  width: 50%;
+  height: 100%;
+}
+
+/*----Left Second Section----*/
+
+.leftSecondSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+}
+
+.leftSecondSection div {
+  width: 80%;
+  height: 70%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  transform: perspective(900px) rotateY(-10deg);
+  transition: transform 0.3s ease;
+}
+
+.leftSecondSection div:hover {
+  transform: perspective(900px) rotateY(0deg) scale(1.02);
+}
+
+.leftSecondSection div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 30px;
+  transition: transform 0.3s ease;
+}
+
+.leftSecondSection div:hover img {
+  transform: scale(1.1);
+}
+
+/*----Right Second Section----*/
+
+.rightSecondSection {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  padding-right: 80px;
+  color: white;
+}
+
+.rightSecondSection h3 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 0;
+}
+
+.rightSecondSection h1 {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.rightSecondSection p {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.rightSecondSection div button {
+  border: 1px solid brown;
+  cursor: pointer;
+  background: linear-gradient(45deg, #ffd700, #ffa500);
+  padding: 12px 35px;
+  color: #8b0000;
+  border-radius: 25px;
+  font-family: Roboto;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.rightSecondSection div button:hover {
+  background: linear-gradient(45deg, #ffa500, #ff8c00);
+  transform: translateY(-3px);
+  color: white;
+}
