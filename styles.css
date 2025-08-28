@@ -129,19 +129,19 @@
 #rightImageContainer img {
   width: 100%;
   height: 100%;
-  animation: spin 8s linear;
+  animation: spin 8s linear infinite;
 }
 
 /*----Spin Animation----*/
 
-@keyframes spin {
+/* @keyframes spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 /*----Article section----*/
 
